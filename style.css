@@ -30,7 +30,7 @@ body {
   gap: 5px;
 }
 .stack-step .blue-circle-btn {
-  background-color: #15afff;
+  background-color: #919193;
   width: 25px;
   height: 25px;
   border-radius: 100%;
@@ -56,20 +56,20 @@ body {
   width: 100%;
   overflow: hidden;
 }
-.scroll-cont {
+.slider {
   width: 300%;
   height: 100%;
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
-.scroll-cont .box {
+.slider .box {
     max-height: 100%;
     width: 100%;
     flex-shrink: 0;
     padding: 20px 30px;
 }
 
-.scroll-cont .box .content {
+.slider .box .content {
     width:31em;
     height: 60%;
     border-radius: 5px;

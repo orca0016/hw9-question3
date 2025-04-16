@@ -14,7 +14,8 @@ const renderHeader = () => {
     // ---------
     const blueCircleBtn = document.createElement("span");
     blueCircleBtn.classList.add("blue-circle-btn");
-
+    if (currentStep === i+1 || currentStep >= i+1) blueCircleBtn.style.backgroundColor='#15afff'
+    
     // ---------
     const number = document.createElement("div");
     number.classList.add("number");
