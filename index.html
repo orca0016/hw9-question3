@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <!-- 1 item header -->
+        <div class="stack-step">
+          <span class="blue-circle-btn">
+            <div class="number">1</div>
+            <div class="icon">
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </div>
+          </span>
+          <span>step</span>
+          <div class="square-shape">1</div>
+        </div>
+        <div class="dash-line"></div>
+
+        <!-- 2 item header -->
+        <div class="stack-step">
+          <span class="blue-circle-btn">
+            <div class="number">2</div>
+            <div class="icon">
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </div>
+          </span>
+          <span>step</span>
+          <div class="square-shape">2</div>
+        </div>
+        <div class="dash-line"></div>
+
+        <!-- 1 item header -->
+        <div class="stack-step">
+          <span class="blue-circle-btn">
+            <div class="number">3</div>
+            <div class="icon">
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </div>
+          </span>
+          <span>step</span>
+          <div class="square-shape">3</div>
+        </div>
+        <!-- end items for header -->
+      </div>
+
+
+      <div class="body-content">
+        <div class="scroll-cont">
+            <div class="box"  >
+                <div class="content">step1</div>
+                <button class="next" >next</button>
+                <button class="previous">previous</button>
+                <button class="reset">reset</button>
+            </div>
+            <div class="box"  > 
+                <div class="content">step2</div>
+                <button class="next" >next</button>
+                <button class="previous">previous</button>
+                <button class="reset">reset</button>
+            </div>
+            <div class="box"  >
+                <div class="content">step3</div>
+                <button class="next" >next</button>
+                <button class="previous">previous</button>
+                <button class="reset">reset</button>
+            </div>
+
+        </div>
+      </div>
+    </div>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
