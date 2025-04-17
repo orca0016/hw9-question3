@@ -8,6 +8,7 @@ body {
 }
 .container {
   width: 50%;
+  max-width: 550px;
   height: 65vh;
   background-color: #474949;
   color: white;
@@ -30,7 +31,7 @@ body {
   gap: 5px;
 }
 .stack-step .blue-circle-btn {
-  background-color: #15afff;
+  background-color: #919193;
   width: 25px;
   height: 25px;
   border-radius: 100%;
@@ -47,7 +48,8 @@ body {
 
 .dash-line {
   border: 1px solid #7a7f80;
-  width: 10em;
+  width: 6em;
+  margin: 0 10px;
   height: 1px;
 }
 .body-content {
@@ -55,54 +57,55 @@ body {
   width: 100%;
   overflow: hidden;
 }
-.scroll-cont {
-  width: 300%;
+.slider {
+  width: 100%;
   height: 100%;
-  display: flex;
   transition: transform 0.5s ease-in-out;
+  display: flex;
 }
-.scroll-cont .box {
-    max-height: 100%;
-    width: 100%;
-    flex-shrink: 0;
-    padding: 20px 30px;
-}
-
-.scroll-cont .box .content {
-    width:31em;
-    height: 60%;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #323232;
-
+.slider .box {
+  max-height: 100%;
+  width: 100%;
+  flex-shrink: 0;
+  padding: 20px 30px;
 }
 
-.next{
-    background-color: #1597ff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 20px 0  ;
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-}
-.previous{
-    background-color: unset;
-    border: none;
-    padding: 10px;
-    font-size: 1.2rem;
-    color: white;
-    cursor: pointer;
+.slider .box .content {
+  width: 30.5em;
+  height: 60%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #323232;
 }
 
-.reset{
-    background-color: #21dc6b;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 20px 0  ;
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
+.next {
+  background-color: #1597ff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
+.previous {
+  background-color: unset;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: #21dc6b;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
